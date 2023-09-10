@@ -22,10 +22,7 @@ export default class App extends Component {
             <Route exact path="/sports" element={<NewsComponent key="sports" category="sports"/>}/>
             <Route exact path="/technology" element={<NewsComponent key="technology" category="technology"/>}/>
           </Routes>
-        
         </Router>
-        
-
       </>
     );
   }
